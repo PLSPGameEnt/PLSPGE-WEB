@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLSP Game Enthusiats</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="../Images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-dark text-white overflow-x-hidden">
+
+    <!--Navigation-->
+    <nav class="mt-3 mx-3 mx-md-5 py-2 navbar navbar-expand-lg fixed-top rounded rounded-5 bg-dark" id="navi"
+        data-bs-theme="dark" data-aos="fade-in">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand logo" href="../../index.html#home">
+                <img class="img-fluid rounded-5 rounded-circle" src="../Images/Logo.png" alt="PLSP Game Enthusiats"
+                    width="60" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../../index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mb-2 mb-lg-0">
+                    <i class="bi bi-patch-check-fill text-white"></i>
+                    <a href="https://github.com/Harleythetech/BrainlessDev-Harley"
+                        class="link-underline link-underline-opacity-0"><span class="navbar-text ps-1">V1.0</span></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--404 Content-->
+    <div class="container-fluid mt-5 pt-5 vh-100 align-items-center d-flex ">
+        <div class="row row-cols-1 row-cols-md-1 d-flex flex-wrap">
+            <div class="col text-center">
+                <img src="../Images/404.svg" alt="404 Error" class="img-fluid" width="600"
+                    height="600">
+            </div>
+            <div class="col text-center">
+                <h2 class="display-6">Page Not Found</h2>
+                <p class="fs-5">The page you are looking for might have been removed, had its name changed or is
+                    temporarily unavailable.</p>
+                <a href="../../index.html" class="btn btn-warning">Go to Home</a>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer bg-dark">
+        <hr class="hrline">
+        <div class="container-fluid p-5">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-4">
+                <!--First Order, Brand name & Addr-->
+                <div class="footer-addr col order-1 text-center text-md-start">
+                    <img src="../Images/footerimg.png" alt="PLSP Game Enthusiat"
+                        class="img-fluid rounded-5 rounded-circle mb-2" width="80" height="80">
+                    <h4>PLSP Game Enthusiast</h4>
+                    <p class="fs-7">387R+JMP, Alvarez St., San Pablo City, Laguna</p>
+                </div>
+                <!--Second Order, Quick Links-->
+                <div class="col order-2 text-center text-md-start">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../../index.html#home" class="nav-link">Home</a></li>
+                        <li><a href="../../index.html#About" class="nav-link">About</a></li>
+                        <li><a href="../../index.html#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <!--Third Order, Additional Info-->
+                <div class="col order-3 text-center text-md-start">
+                    <h5>Additional Info</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./Privacy.html" class="nav-link">Privacy Policy</a></li>
+                        <li><a href="./Terms Of Service.html" class="nav-link">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <!--Fourth Order, Contact Us-->
+                <div class="col text-end order-4 justify-content-between d-flex d-md-block align-items-center mt-3 mt-md-0 border border-warning rounded rounded-5 p-5"
+                    id="contactfooter">
+                    <div class="text-start text-md-end">
+                        <h5>Contact Us</h5>
+                        <a href="mailto:plsp.gameent@gmail.com" class="fs-7">plsp.gameent@gmail.com</a>
+                    </div>
+                    <hr class="d-none d-md-block">
+                    <div class="text-end">
+                        <a href="https://www.facebook.com/plsp.gament" class="me-2"><i
+                                class="bi bi-facebook fs-1 text-white"></i></a>
+                        <a href="https://www.twitch.tv/plsp_gament"><i class="bi bi-twitch fs-1 text-white"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <!--Final part of footer, copyright and links of tools used and the repo it self.-->
+        <div class="text-center justify-content-between d-sm-flex d-block mx-5 link-col pb-2 pb-md-0">
+            <div class="order-1">
+                <a href="https://github.com" class="order-3"><i class="bi bi-github"></i></a>
+                <a href="https://getbootstrap.com/"><i class="bi bi-bootstrap-fill"></i></a>
+                <a href="https://" class="link-underline link-underline-opacity-0">Website Repository <i
+                        class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+            <p class="order-2 fs-6">&copy; 2024 - 2025 PLSP Game Enthusiasts. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
