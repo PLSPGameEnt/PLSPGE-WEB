@@ -1,5 +1,7 @@
 const form = document.getElementById('form');
 const result = document.getElementById('result');
+const version = document.getElementById('version');
+version.innerHTML = "V1.5";
 
 form.addEventListener('submit', function(e) {
   e.preventDefault();
